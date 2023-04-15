@@ -1,7 +1,7 @@
 const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./schema');
 const resolvers = require('./resolvers');
-const StoreAPI = require('./datasources/store-api');
+const StoreAPI = require('./datasources/store-api')
 
 // const mocks = {
 //     Query: () => ({
